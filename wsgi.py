@@ -13,4 +13,4 @@ if __name__=="__main__":
     with open('resources/graph.pickle4','rb') as f:
         G = nx.read_gpickle(f)
     df = pd.read_pickle('resources/courses.pickle4').set_index('Code')
-    app.run()
+    app.run(host='0.0.0.0',port=5008)

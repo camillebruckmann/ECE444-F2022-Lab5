@@ -73,6 +73,7 @@ def create_app():
             search.data['campuses'],
             search.data['top']
             )
+        print(results)
 
         return render_template('results.html',tables=[t.to_html(classes='data',index=False,na_rep='',render_links=True, escape=False) for t in results],form=search)
 
@@ -152,7 +153,6 @@ def filter_courses(pos_terms, year, division, department, campus, n_return=10):
     #1. Split search into phrases e.g. machine learning, biology ==> ['machine learning','biology']
     #2. Find phrases that occur in the vectorizer (if none, give up). 
     terms = [t for t in pos_terms.split(',') if t.strip() in vectorizer.get_feature_names()]
-    print(terms)
     if len(terms) == 0:
         return []
     
