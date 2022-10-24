@@ -11,3 +11,4 @@ This repo is a clone of https://github.com/nelaturuk/education_pathways.git
 ![Alt text](activity23.png?raw=true "Title")
 ![Alt text](activity45.png?raw=true "Title")
 ![Alt text](activity56.png?raw=true "Title")
+![Alt text](filtering.png?raw=true "Title")
