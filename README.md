@@ -16,4 +16,4 @@ This repo is a clone of https://github.com/nelaturuk/education_pathways.git
 ## Prototype 2, pre/corequisites and possible career paths
 ![Alt text](careers.png?raw=true "Title")
 ## Prototype 3, leaving course reviews
-![Alt text](course-reviews-mockup?raw=true "Title")
+![Alt text](course-reviews-mockup.png?raw=true "Title")
