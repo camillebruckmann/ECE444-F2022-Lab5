@@ -1,28 +1,37 @@
-# ECE444 Lab5
+# CARTE Education Pathways
 
-This repo is a clone of https://github.com/nelaturuk/education_pathways.git
+## Description
+Welcome to CARTE's in-development tool for course selection at UofT. Education Pathways allows for more intelligent course searching, by matching not just the terms you search, but ones relevant to them. The more terms you search for, the more relevant your results will be! Even try searching across disciplines for the courses that best cover each.
 
-## Activity 1
+Whatever year you are looking for, Education Pathways will also suggest courses in earlier years that will best help you to prepare. To get the most out of this, try searching for courses in a later year and see what is suggested for your current one.
 
-![Alt text](activity1.png?raw=true "Title")
+We are looking for feedback to improve Education Pathways and make it more useful for students. If you have ideas or suggestions, please email us!
 
-## Activities 2-6
+## Setup Instructions
 
-![Alt text](activity11.png?raw=true "Title")
-![Alt text](activity22.png?raw=true "Title")
-![Alt text](activity33.png?raw=true "Title")
-## Prototype 1, filtering by offering/location/faculty
-### User story:
-![image](https://user-images.githubusercontent.com/44990661/198152159-6e65b887-6919-4267-82b9-1b4c131a8820.png)
-### Prototype: 
-![Alt text](filtering_prototype.png?raw=true "Title")
-## Prototype 2, pre/corequisites and possible career paths
-### User story:
-![image](https://user-images.githubusercontent.com/44990661/198152267-e2e93003-a295-4f42-8081-1fe4fe9ce2b6.png)
-### Prototype:
-![Alt text](careers_prototype.png?raw=true "Title")
-## Prototype 3, leaving course reviews
-### User story:
-![Alt text](userstory3.png?raw=true "Title")
-### Prototype:
-![Alt text](course-reviews-mockup.png?raw=true "Title")
+### With Docker
+
+
+
+## Repository files:
+
+`./Procfile ./wsgi.py` *tells gunicorn how to run the program*
+
+`./environment.yml  ./requirements.txt` *specifies python requirements for anaconda and pip respectively*
+
+`./__init__.py` *main flask code*
+
+`./readme.md` *this file*
+
+`./resources:` *contains datasets used in the program*
+
+`course_vectorizer.pickle df_processed.pickle`
+
+`course_vectors.npz       graph.pickle`
+
+`./static:` *contains any static elements of the webpage, in this case just the CARTE logo*
+`CARTE_logo.jpg`
+
+`./templates:` *contains flask templates for rendering HTML*
+
+`_formhelpers.html course.html       index.html        results.html`
