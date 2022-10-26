@@ -14,7 +14,7 @@ This repo is a clone of https://github.com/nelaturuk/education_pathways.git
 ## Prototype 1, filtering by offering/location/faculty
 ### User story:
 ![image](https://user-images.githubusercontent.com/44990661/198152159-6e65b887-6919-4267-82b9-1b4c131a8820.png)
-# Prototype: 
+### Prototype: 
 ![Alt text](filtering_prototype.png?raw=true "Title")
 ## Prototype 2, pre/corequisites and possible career paths
 ### User story:
