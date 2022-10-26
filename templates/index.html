@@ -18,9 +18,8 @@
 <div id="home-page-feedback-text">We are looking for feedback to improve Education Pathways and make it more useful for students. If you have ideas or suggestions, please <a href="mailto:alex.olson@utoronto.ca">email us!</a></div>
 </div>  
 {% from "_formhelpers.html" import render_field %}
-
+<h3>Search for courses</h3>
 <form method="post" class="common-page-form">
-  <h3>Search for courses</h3>
   <dl>
     {{ render_field(form.select) }}
     <p>
